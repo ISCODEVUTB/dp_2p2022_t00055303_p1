@@ -9,16 +9,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>Unit_Test</groupId>
+            <artifactId>Unit_Test</artifactId>
             <version>4.13.1</version>
-            <scope>test</scope>
+            <scope>Test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.8.1</version>
-            <scope>Test</scope>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
