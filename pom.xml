@@ -9,10 +9,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>Unit_Test</groupId>
-            <artifactId>Unit_Test</artifactId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
             <version>4.13.1</version>
-            <scope>Test</scope>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -46,7 +46,7 @@
                     </execution>
                     <execution>
                         <id>jacoco-report</id>
-                        <phase>Test</phase>
+                        <phase>test</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>
