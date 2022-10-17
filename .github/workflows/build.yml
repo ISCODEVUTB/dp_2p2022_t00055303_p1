@@ -31,6 +31,6 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build and analyze
         env:
-        GITHUB_TOKEN: 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
-        SONAR_TOKEN: a3d97ec5b644aac8f6a6ed0d32bf3bc0a1c25026
+          GITHUB_TOKEN: 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
+          SONAR_TOKEN: a3d97ec5b644aac8f6a6ed0d32bf3bc0a1c25026
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ISCODEVUTB_dp_2p2022_t00055303_p1
